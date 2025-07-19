@@ -1,7 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import List
+import pathlib
+import json
+import difflib
+from sentence_transformers import SentenceTransformer
+import numpy as np
+from scipy.spatial.distance import cosine
 
 app = FastAPI()
 
@@ -14,12 +21,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Dummy chatbot Q&A data
-chatbot_data = [
-    {"question": "What is Tech Kshetra?", "answer": "Tech Kshetra is a platform for technology enthusiasts to learn and share knowledge."},
-    {"question": "How can I join Tech Kshetra?", "answer": "You can join by signing up on our website and participating in our community events."},
-    {"question": "What services does Tech Kshetra offer?", "answer": "We offer tutorials, workshops, and a community forum for tech discussions."}
-]
+# Serve static files from the frontend directory at /static
+frontend_path = pathlib.Path(__file__).parent.parent / "chadbot_frontend"
+app.mount("/static", StaticFiles(directory=str(frontend_path), html=True), name="static")
+
+# Load chatbot Q&A data from JSON file
+data_file = pathlib.Path(__file__).parent / "chatbot_data.json"
+with open(data_file, "r", encoding="utf-8") as f:
+    chatbot_data = json.load(f)
+
+# Load sentence transformer model
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+# Precompute embeddings for questions
+questions = [item["question"] for item in chatbot_data]
+question_embeddings = model.encode(questions)
 
 # In-memory storage for chat messages (dummy)
 chat_messages = []
@@ -35,12 +51,20 @@ async def get_chatbot_info():
 @app.post("/chatbot/message")
 async def post_chat_message(msg: ChatMessage):
     chat_messages.append(msg.dict())
-    user_question = msg.message.lower()
+    user_question = msg.message
 
-    # Check for direct match in chatbot_data (case-insensitive)
-    for item in chatbot_data:
-        if item["question"].lower() == user_question:
-            return {"response": item["answer"]}
+    # Compute embedding for user question
+    user_embedding = model.encode([user_question])[0]
 
-    # If no direct match, return a default message encouraging to ask known questions
+    # Find closest question by cosine similarity
+    similarities = [1 - cosine(user_embedding, q_emb) for q_emb in question_embeddings]
+    best_idx = np.argmax(similarities)
+    best_score = similarities[best_idx]
+
+    # Threshold for similarity
+    if best_score > 0.5:
+        answer = chatbot_data[best_idx]["answer"]
+        return {"response": answer}
+
+    # If no good match, return default message
     return {"response": "Sorry, I can only answer questions related to Tech Kshetra from my database. Please ask something else."}

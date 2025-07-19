@@ -1,14 +1,14 @@
 [
   {
-    "question": "What is Tech Kshetra?",
+    "question": "What is TechKshetra?",
     "answer": "Tech Kshetra is a platform for technology enthusiasts to learn and share knowledge."
   },
   {
-    "question": "How can I join Tech Kshetra?",
+    "question": "How can I join TechKshetra?",
     "answer": "You can join by signing up on our website and participating in our community events."
   },
   {
-    "question": "What services does Tech Kshetra offer?",
+    "question": "What services does TechKshetra offer?",
     "answer": "We offer tutorials, workshops, and a community forum for tech discussions."
   },
   {
@@ -306,5 +306,398 @@
   {
     "question": "How to contact TechKshetra team?",
     "answer": "You can contact the TechKshetra team via the official website or college."
+  },
+  {
+    "question": "What is Tech Kshetra?",
+    "answer": "Tech Kshetra is a platform for technology enthusiasts to learn and share knowledge."
+  },
+  {
+    "question": "How can I join Tech Kshetra?",
+    "answer": "You can join by signing up on our website and participating in our community events."
+  },
+  {
+    "question": "Who is the head of Tech Kshetra?",
+    "answer": "The head of Tech Kshetra is Osama / Veer, a student council member for the last 3 years and a student of the Department of Information Technology."
+  },
+  {
+    "question": "Who are the faculty coordinators of Tech Kshetra?",
+    "answer": "The faculty coordinators are Anjali Bunker and Saba Shaikh, assistant professors in the Department of Computer Science and Information Technology."
+  },
+  {
+    "question": "What are the upcoming events?",
+    "answer": "You can visit the Tech Kshetra website to see the latest upcoming events. The chatbot can also help scroll and provide event details."
+  },
+  {
+    "question": "Who are the members of the Tech Kshetra team?",
+    "answer": "The team members include the head Osama / Veer and faculty coordinators Anjali Bunker and Saba Shaikh."
+  },
+  {
+    "question": "What resources are provided by Tech Kshetra?",
+    "answer": "Tech Kshetra provides tutorials, workshops, community forums, and events for technology enthusiasts."
+  },
+  {
+    "question": "How can I register for Tech Kshetra?",
+    "answer": "You can register for Tech Kshetra by filling out the registration form available on the official website."
+  },
+  {
+    "question": "What is the Management Team?",
+    "answer": "The Management Team oversees the overall coordination and administration of Tech Kshetra. It ensures smooth functioning of all activities and events."
+  },
+  {
+    "question": "What are the subdivisions of the Management Team?",
+    "answer": "The Management Team has subdivisions including the Decoration Team, Security Team, and PR Team, each responsible for specific operational areas."
+  },
+  {
+    "question": "What does the Decoration Team do?",
+    "answer": "The Decoration Team is responsible for designing and setting up event venues, creating an engaging and attractive environment for participants."
+  },
+  {
+    "question": "What is the role of the Security Team?",
+    "answer": "The Security Team ensures the safety and security of all attendees and participants during events and activities."
+  },
+  {
+    "question": "What does the PR Team handle?",
+    "answer": "The PR Team manages public relations, including promoting events, handling communications, and maintaining a positive image of Tech Kshetra."
+  },
+  {
+    "question": "What is the Technical Team?",
+    "answer": "The Technical Team handles all technical aspects of Tech Kshetra, including managing equipment, software, and technical support during events."
+  },
+  {
+    "question": "What is the Editing Team?",
+    "answer": "The Editing Team is responsible for creating and editing content such as videos, images, and documents related to Tech Kshetra activities."
+  },
+  {
+    "question": "What does the Reporting Team do?",
+    "answer": "The Reporting Team documents events, prepares reports, and shares updates with the community and stakeholders."
+  },
+  {
+    "question": "What is the Social Media Team?",
+    "answer": "The Social Media Team manages Tech Kshetra's presence on social media platforms, engaging with the community and promoting events online."
+  },
+  {
+    "question": "What is Deepa club?",
+    "answer": "Deepa club was formed 2 years ago on 5th September 2023 on the occasion of Ganesh Chaturthi. It organizes events including the inauguration day of Tech Kshetra and TechnoVinayak."
+  },
+  {
+    "question": "When was Deepa club formed?",
+    "answer": "Deepa club was formed on 5th September 2023."
+  },
+  {
+    "question": "What is the E-Poster Competition?",
+    "answer": "An event organized in collaboration with Thane Police Commissionerate to promote creativity and social responsibility."
+  },
+  {
+    "question": "What is Dnyan Dandi?",
+    "answer": "A campus walk symbolizing unity, social change, and environmental consciousness."
+  },
+  {
+    "question": "What is the Felicitation Ceremony?",
+    "answer": "An event to honor final-year core heads of TechKshetra IT Club for their contributions."
+  },
+  {
+    "question": "What is the Workshop on Designing Tools?",
+    "answer": "A practical session on design platforms like Canva, Figma, and Adobe."
+  },
+  {
+    "question": "What is Emoji Day?",
+    "answer": "Fun activities and games centered around emojis to celebrate World Emoji Day."
+  },
+  {
+    "question": "What is Fresher’s Party?",
+    "answer": "A grand welcome event for new students with performances and games."
+  },
+  {
+    "question": "What is Ideathon?",
+    "answer": "A competitive idea pitching event encouraging innovation and teamwork."
+  },
+  {
+    "question": "What is Research Paper Writing workshop?",
+    "answer": "A workshop on writing, formatting, and presenting research papers."
+  },
+  {
+    "question": "What is Development of AI Agents event?",
+    "answer": "An in-depth session on building AI-based agents with hands-on exposure."
+  },
+  {
+    "question": "What is Pre-Independence Celebration?",
+    "answer": "Patriotic activities including cultural performances and speeches."
+  },
+  {
+    "question": "What is Independence Day Celebration?",
+    "answer": "Flag hoisting, parade, and cultural programs to celebrate India’s Independence Day."
+  },
+  {
+    "question": "What is Post-Independence Coding Competition?",
+    "answer": "A coding competition celebrating post-independence and Janmashtami festivities."
+  },
+  {
+    "question": "What is MERN Stack Development Workshop?",
+    "answer": "A detailed workshop on MERN stack web development."
+  },
+  {
+    "question": "What is Ganesh Chaturthi Celebration?",
+    "answer": "Traditional celebration of Ganesh Chaturthi with cultural programs."
+  },
+  {
+    "question": "What is Alienware Arena Gaming Tournament?",
+    "answer": "A campus-wide gaming tournament featuring popular multiplayer games."
+  },
+  {
+    "question": "What is TechnoVinayak?",
+    "answer": "TechKshetra's flagship event featuring tech competitions and exhibitions."
+  },
+  {
+    "question": "What is Teacher’s Day Celebration?",
+    "answer": "A program to appreciate and honor teachers with performances and felicitation."
+  },
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is the simulation of human intelligence in machines."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables systems to learn from data."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning using neural networks."
+  },
+  {
+    "question": "What is Natural Language Processing?",
+    "answer": "NLP is a field of AI focused on the interaction between computers and human language."
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision enables computers to interpret and process visual data."
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Science involves extracting insights from data using scientific methods."
+  },
+  {
+    "question": "What is Cloud Computing?",
+    "answer": "Cloud Computing delivers computing services over the internet."
+  },
+  {
+    "question": "What is DevOps?",
+    "answer": "DevOps is a set of practices combining software development and IT operations."
+  },
+  {
+    "question": "What is Blockchain?",
+    "answer": "Blockchain is a distributed ledger technology for secure transactions."
+  },
+  {
+    "question": "What is Internet of Things?",
+    "answer": "IoT connects physical devices to the internet for data exchange."
+  },
+  {
+    "question": "What is Cybersecurity?",
+    "answer": "Cybersecurity protects systems and networks from digital attacks."
+  },
+  {
+    "question": "What is Agile methodology?",
+    "answer": "Agile is an iterative approach to software development."
+  },
+  {
+    "question": "What is Scrum?",
+    "answer": "Scrum is an Agile framework for managing projects."
+  },
+  {
+    "question": "What is a REST API?",
+    "answer": "REST API is an architectural style for designing networked applications."
+  },
+  {
+    "question": "What is ReactJS?",
+    "answer": "ReactJS is a JavaScript library for building user interfaces."
+  },
+  {
+    "question": "What is Node.js?",
+    "answer": "Node.js is a JavaScript runtime built on Chrome's V8 engine."
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level, interpreted programming language."
+  },
+  {
+    "question": "What is Java?",
+    "answer": "Java is a class-based, object-oriented programming language."
+  },
+  {
+    "question": "What is SQL?",
+    "answer": "SQL is a language for managing and querying relational databases."
+  },
+  {
+    "question": "What is NoSQL?",
+    "answer": "NoSQL refers to non-relational databases designed for large-scale data."
+  },
+  {
+    "question": "What is Git?",
+    "answer": "Git is a distributed version control system."
+  },
+  {
+    "question": "What is Docker?",
+    "answer": "Docker is a platform for containerizing applications."
+  },
+  {
+    "question": "What is Kubernetes?",
+    "answer": "Kubernetes is an open-source system for automating container deployment."
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML is the standard markup language for creating web pages."
+  },
+  {
+    "question": "What is CSS?",
+    "answer": "CSS is a stylesheet language used to describe the presentation of web pages."
+  },
+  {
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a programming language for web development."
+  },
+  {
+    "question": "What is API?",
+    "answer": "API stands for Application Programming Interface."
+  },
+  {
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is a software application that simulates human conversation."
+  },
+  {
+    "question": "What is an event in TechKshetra?",
+    "answer": "An event is a scheduled activity organized by TechKshetra for students."
+  },
+  {
+    "question": "How can I participate in TechKshetra events?",
+    "answer": "You can participate by registering on the TechKshetra website or contacting the team."
+  },
+  {
+    "question": "Who can join TechKshetra?",
+    "answer": "All students of B. K. Birla College, Kalyan, are welcome to join."
+  },
+  {
+    "question": "What is the duration of TechKshetra events?",
+    "answer": "Event durations vary from 2 hours to full day depending on the event."
+  },
+  {
+    "question": "How to contact TechKshetra team?",
+    "answer": "You can contact the TechKshetra team via the official website or college."
+  },
+  {
+    "question": "What are some past events organized by TechKshetra?",
+    "answer": "Past events include TechnoVinayak, E-Poster Competition, Dnyan Dandi, and various workshops."
+  },
+  {
+    "question": "How often does TechKshetra organize events?",
+    "answer": "TechKshetra organizes events throughout the academic year, typically monthly or quarterly."
+  },
+  {
+    "question": "Are TechKshetra events open to all students?",
+    "answer": "Yes, most events are open to all students of B. K. Birla College, Kalyan."
+  },
+  {
+    "question": "Can I volunteer for TechKshetra events?",
+    "answer": "Yes, students can volunteer by contacting the TechKshetra team through the official website."
+  },
+  {
+    "question": "Does TechKshetra provide certificates for event participation?",
+    "answer": "Yes, certificates are provided for participation and winning in various events."
+  },
+  {
+    "question": "What kind of workshops does TechKshetra offer?",
+    "answer": "Workshops include topics like AI, Machine Learning, Web Development, Designing Tools, and Research Paper Writing."
+  },
+  {
+    "question": "How can I stay updated on TechKshetra news?",
+    "answer": "Follow TechKshetra on social media, visit the official website, or subscribe to newsletters."
+  },
+  {
+    "question": "Is there a membership fee for TechKshetra?",
+    "answer": "No, TechKshetra membership is free for all students."
+  },
+  {
+    "question": "What is the role of faculty coordinators in TechKshetra?",
+    "answer": "Faculty coordinators guide and support the student team in organizing events and activities."
+  },
+  {
+    "question": "Can alumni participate in TechKshetra events?",
+    "answer": "Alumni may be invited to special events or as guest speakers."
+  },
+  {
+    "question": "How can I suggest new event ideas to TechKshetra?",
+    "answer": "You can suggest ideas by contacting the team via the official website or during events."
+  },
+  {
+    "question": "Who organizes the E-Poster Competition?",
+    "answer": "Organized in collaboration with Thane Police Commissionerate."
+  },
+  {
+    "question": "What is the objective of the E-Poster Competition?",
+    "answer": "To promote creativity and social responsibility through poster design."
+  },
+  {
+    "question": "When is Dnyan Dandi held?",
+    "answer": "6th July 2025."
+  },
+  {
+    "question": "When is the Felicitation Ceremony?",
+    "answer": "Tentative date in the first week of July."
+  },
+  {
+    "question": "When is the Workshop on Designing Tools?",
+    "answer": "Tentative date in the second Saturday of July."
+  },
+  {
+    "question": "When is Emoji Day?",
+    "answer": "17th July 2025."
+  },
+  {
+    "question": "When is Fresher’s Party?",
+    "answer": "26th July 2025."
+  },
+  {
+    "question": "When is Ideathon?",
+    "answer": "Tentative date on the last day of July."
+  },
+  {
+    "question": "When is the Research Paper Writing workshop?",
+    "answer": "2nd August 2025."
+  },
+  {
+    "question": "When is the Development of AI Agents event?",
+    "answer": "8th August 2025."
+  },
+  {
+    "question": "When is Pre-Independence Celebration?",
+    "answer": "14th August 2025."
+  },
+  {
+    "question": "When is Independence Day Celebration?",
+    "answer": "15th August 2025."
+  },
+  {
+    "question": "When is Post-Independence Coding Competition?",
+    "answer": "16th August 2025."
+  },
+  {
+    "question": "When is MERN Stack Development Workshop?",
+    "answer": "23rd or 24th August 2025."
+  },
+  {
+    "question": "When is Ganesh Chaturthi Celebration?",
+    "answer": "27th August 2025."
+  },
+  {
+    "question": "When is Alienware Arena Gaming Tournament?",
+    "answer": "30th August 2025."
+  },
+  {
+    "question": "When is TechnoVinayak?",
+    "answer": "5th September 2025."
+  },
+  {
+    "question": "When is Teacher’s Day Celebration?",
+    "answer": "5th September 2025."
   }
+
 ]

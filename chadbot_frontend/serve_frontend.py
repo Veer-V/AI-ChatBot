@@ -1,8 +1,10 @@
 import http.server
 import socketserver
 
+import pathlib
+
 PORT = 8080
-DIRECTORY = "."
+DIRECTORY = str(pathlib.Path(__file__).parent.resolve())
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
